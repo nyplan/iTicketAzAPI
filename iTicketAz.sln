@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F36FB624-DA02-4F61-9B75-D1E446E48779}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{478A4EDA-5DC5-4A3C-9BA5-76D5A07CC1C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{355840F7-AFD7-4EB7-BD28-8A88C152123B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTicketAz.BLL", "BusinessLogic\iTicketAz.BLL\iTicketAz.BLL.csproj", "{E72F0ACF-3E61-499B-8893-C1535A99FEE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTicketAz.DAL", "DataAccess\iTicketAz.DAL\iTicketAz.DAL.csproj", "{0873FBB6-3346-409C-8F90-1F50F8D88594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTicketAz.API", "Presentation\iTicketAz.API\iTicketAz.API.csproj", "{A48962E9-62EE-4438-B9CD-17D608BECB0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E72F0ACF-3E61-499B-8893-C1535A99FEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72F0ACF-3E61-499B-8893-C1535A99FEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72F0ACF-3E61-499B-8893-C1535A99FEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72F0ACF-3E61-499B-8893-C1535A99FEE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0873FBB6-3346-409C-8F90-1F50F8D88594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0873FBB6-3346-409C-8F90-1F50F8D88594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0873FBB6-3346-409C-8F90-1F50F8D88594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0873FBB6-3346-409C-8F90-1F50F8D88594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48962E9-62EE-4438-B9CD-17D608BECB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48962E9-62EE-4438-B9CD-17D608BECB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48962E9-62EE-4438-B9CD-17D608BECB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48962E9-62EE-4438-B9CD-17D608BECB0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E72F0ACF-3E61-499B-8893-C1535A99FEE5} = {478A4EDA-5DC5-4A3C-9BA5-76D5A07CC1C9}
+		{0873FBB6-3346-409C-8F90-1F50F8D88594} = {355840F7-AFD7-4EB7-BD28-8A88C152123B}
+		{A48962E9-62EE-4438-B9CD-17D608BECB0F} = {F36FB624-DA02-4F61-9B75-D1E446E48779}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62654861-E1F4-4BE0-AA29-39F78F478BB1}
+	EndGlobalSection
+EndGlobal
