@@ -29,7 +29,7 @@ namespace iTicketAz.API.Controllers
             return Ok(dto);
         }
         [HttpPut]
-        public IActionResult Put([FromBody] UserToUpdateDto dto)
+        public IActionResult Put([FromBody] EventToUpdateDto dto)
         {
             _unitOfWork.UserService.Update(dto);
             _unitOfWork.Commit();
